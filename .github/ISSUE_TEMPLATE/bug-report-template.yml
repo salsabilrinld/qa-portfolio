@@ -1,0 +1,96 @@
+name: 🐛 Bug Report
+description: Laporkan bug yang ditemukan selama pengujian
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: input
+    id: module
+    attributes:
+      label: Modul / Fitur
+      description: Modul atau fitur mana yang terdampak?
+      placeholder: "contoh: Login, Registrasi, Checkout"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options:
+        - Blocker
+        - Critical
+        - Major
+        - Minor
+        - Trivial
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - High
+        - Medium
+        - Low
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Deskripsi Bug
+      description: Jelaskan bug secara singkat dan jelas
+      placeholder: "Jelaskan apa yang terjadi..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce (Langkah Reproduksi)
+      description: Tulis langkah-langkah untuk mereproduksi bug
+      value: |
+        1. Buka halaman ...
+        2. Klik pada ...
+        3. Masukkan data ...
+        4. Amati hasil ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected Result (Hasil yang Diharapkan)
+      placeholder: "Apa yang seharusnya terjadi?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual Result (Hasil Aktual)
+      placeholder: "Apa yang benar-benar terjadi?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Informasi environment tempat bug ditemukan
+      value: |
+        - OS: Windows 11
+        - Browser: Chrome 120
+        - Environment: Staging
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot / Video
+      description: Lampirkan screenshot atau video jika ada
+      placeholder: "Drag & drop gambar di sini"
+    validations:
+      required: false
