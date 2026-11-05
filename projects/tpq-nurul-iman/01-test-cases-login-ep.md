@@ -17,8 +17,8 @@ Dokumentasi spesifikasi dan hasil pengujian fungsional modul Login Sistem Inform
 
 ---
 
-## 📊 Analisis Hasil Pengujian Modul Login
+## Analisis Hasil Pengujian Modul Login
 
-- **Total Test Case**: 7 Kasus Uji
-- **Tingkat Keberhasilan**: **100% (7 / 7 Valid)**
-- **Kesimpulan Fungsional**: Sistem autentikasi modul login beroperasi dengan sangat baik dalam memeriksa kombinasi kredensial pengguna, menolak format yang tidak sesuai, serta memberikan pesan kesalahan yang presisi dan informatif.
+- Total Test Case: 7 Kasus Uji
+- Tingkat Keberhasilan: 100% (7 / 7 Valid)
+- Kesimpulan Fungsional: Sistem autentikasi modul login beroperasi dengan sangat baik dalam memeriksa kombinasi kredensial pengguna, menolak format yang tidak sesuai, serta memberikan pesan kesalahan yang presisi dan informatif.
