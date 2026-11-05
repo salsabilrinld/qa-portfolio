@@ -1,6 +1,6 @@
 # Test Automation Suite: LMS Tutoring Academy
 
-## 🛠️ Tech Stack Otomasi
+## Tech Stack Otomasi
 
 | Komponen | Spesifikasi |
 |---|---|
