@@ -1,4 +1,4 @@
-# 🎯 Test Scenarios: LMS Tutoring Academy
+# Test Scenarios: LMS Tutoring Academy
 
 Daftar Skenario Pengujian tingkat tinggi (*High-Level Test Scenarios*) yang mencakup seluruh modul sistem (F-01 hingga F-13).
 
