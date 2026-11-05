@@ -1,4 +1,4 @@
-# 📋 Test Plan: Learning Management System (LMS) untuk Tutoring Academy
+# Test Plan: Learning Management System (LMS) untuk Tutoring Academy
 
 Dokumen Rencana Pengujian Perangkat Lunak (DUPL) untuk sistem standalone Learning Management System (LMS) Tutoring Academy berbasis web.
 
