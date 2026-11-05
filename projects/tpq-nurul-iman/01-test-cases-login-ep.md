@@ -1,4 +1,4 @@
-# Test Cases 
+# Test Cases : Fitur Login
 Dokumentasi spesifikasi dan hasil pengujian fungsional modul Login Sistem Informasi TPQ Nurul Iman menggunakan teknik Equivalence Partitioning (EP). Metode pengujian *Black Box Testing* dengan teknik *Equivalence Partitioning* diterapkan karena field pada form login tidak memerlukan masukan dalam rentang angka tertentu, melainkan dikelompokkan ke dalam dua partisi dasar: partisi valid dan partisi invalid.
 
 ---
